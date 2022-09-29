@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  
+<head>
+   <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<h1>Hell world<h1/>
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
-  </body>
-</html>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+        </head>
+        <body>
+<form id="survey-form">
+  <h1 id="title">Survey Form</h1>
+<p id="description">This survey is to know how different microverse parrtners feel about pair-programming</p>
+  <div class="form-control">
+  <label id="name-label">Name</label>
+  <input id="name" type="text" placeholder="name" required></input>
+  <br>
+  <label id="email-label">Email</label>
+   <input id="email" type="email" placeholder="email" required></input>
+   <br>
+   <label id="number-label">Number</label>
+    <input id="number" type="number" placeholder="number" min="10" max="12" required></input>
+    </div>
+    <div class="form-control">
+      <label id="">Gender</label>
+    <select id="dropdown">
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+    </div>
+<div class="form-control">
+  <label id="">Rate from 1 to 4</label>
+<input type="radio" value="1" name="male">1</input>
+<input type="radio" value="2" name="female">2</input>
+<input type="radio" value="1" name="male">3</input>
+<input type="radio" value="2" name="female">4</input>
+</div>
+<div class="form-control">
+  <label id="">Will you choose same partner again?</label>
+<input type="checkbox" value="1">Yes</input>
+<input type="checkbox" value="1">No</input>
+</div>
+<div class="form-control">
+   <label id="">Leave a message(optional)</label>
+   <br><br>
+<textarea rows="4" cols="55"name="comment" id="comment"
+                placeholder="Enter your comment here"></textarea>
+</div>
+<button id="submit" type="submit"> Submit</button>
+</form>
+</body>
+  </html>
