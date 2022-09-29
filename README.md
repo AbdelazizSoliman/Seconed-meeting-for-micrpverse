@@ -1,1 +1,1 @@
-# Seconed-meeting-for-micrpverse
+# Second-meeting-for-microverse
